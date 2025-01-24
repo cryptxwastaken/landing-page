@@ -138,3 +138,24 @@ img {
 .info {
     max-width: 200px;
 }
+
+/* Quote */
+.quote-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 100px 0 100px 0;
+}
+
+.quote-text {
+    margin: 0;
+}
+
+.quotee {
+    margin: 0 0 0 auto;
+}
