@@ -59,7 +59,7 @@ body {
     color: #1F2937;
 }
 
-.cta-bg {
+.cta-container {
     background: #3882F6;
 }
 
@@ -158,4 +158,24 @@ img {
 
 .quotee {
     margin: 0 0 0 auto;
+}
+
+/* Call to action */
+.cta-bg {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: 1000px;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.cta-button {
+    border: 3px solid #F9FAF8;
 }
