@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0; /* Make background color fill out */
 }   
 
 .dark-bg {
@@ -12,6 +13,7 @@ body {
 .hero-main, 
 .header-logo, 
 .button-color, 
+.cta-header, 
 .cta-button {
     color: #F9FAF8;
 }
@@ -28,8 +30,12 @@ body {
     color: #E5E7EB;
 }
 
-.header-logo {
+.header-logo, 
+.cta-header {
     font-size: 24px;
+}
+
+.cta-header {
     font-weight: 600;
 }
 
@@ -37,9 +43,8 @@ body {
 .cta-button {
     background: #3882F6;
     font-weight: 600;
-    /* height: auto; */
-    /* width: 110px; */
-    /* width: auto; */
+    height: 36px;
+    width: 120px;
 }
 
 .info-header {
@@ -79,7 +84,7 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
-    padding: 0px;
+    padding: 0;
 }
 
 /* Awesome header */
@@ -171,6 +176,7 @@ img {
 .cta-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 200px;
     width: 1000px;
     padding: 50px 0;
@@ -184,5 +190,5 @@ img {
 /* Footer */
 .footer-text {
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 0;
 }
